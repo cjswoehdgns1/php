@@ -1,0 +1,64 @@
+
+:root {
+--maincolor: #003458;
+}
+
+*{
+    font-size: 15px;
+}
+
+input {
+    width:120px;
+}
+.wrap {
+display:flex; 
+align-items: center; 
+justify-content: center;
+}
+table.type07 {
+border-collapse: collapse;
+text-align: left;
+line-height: 1.5;
+border: 1px solid black;
+margin: 20px 10px;
+}
+table.type07 thead {
+border-right: 1px solid black;
+border: 1px solid black;
+background: var(--maincolor);
+}
+table.type07 thead th {
+padding: 10px;
+font-weight: bold;
+vertical-align: center;
+text-align : center;
+color: #fff;
+}
+table.type07 tbody th {
+width: 150px;
+padding: 10px;
+font-weight: bold;
+vertical-align: center;
+text-align : center;
+border: 1px solid #ccc;
+background: var(--maincolor);
+color: white;
+}
+table.type07 td {
+width: 350px;
+padding: 10px;
+vertical-align: center;
+border: 1px solid black;
+text-align: center;
+}
+.btn {
+    text-align: center;
+}
+.amount {
+    width: 25px;
+}
+.unit {
+font-size: 1px; 
+flex-wrap: nowrap;
+vertical-align: bottom;
+}
