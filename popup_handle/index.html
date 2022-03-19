@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=common.js></script>
+    <!-- 아래의 소스는 제이쿼리입니다. -->
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <a href="javascript:openPop(userid, userpw)">팝업열기</a>
+    <form id="myform" method="post" action="pop.html" target="childwin">
+        <input type="hidden" name="userid" value="value01">
+        <input type="hidden" name="userpw" value="value02"> 
+    </form>    
+</body>
+</html>
