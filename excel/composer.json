@@ -1,0 +1,17 @@
+{
+    "name": "lee_donghun03/test",
+    "autoload": {
+        "psr-4": {
+            "LeeDonghun03\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Donghun Lee",
+            "email": "cjswoehdgns1@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.23"
+    }
+}
